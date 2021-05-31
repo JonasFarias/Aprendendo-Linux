@@ -120,8 +120,7 @@ Lembra da história de que tudo funciona como um arquivo no Linux? Pois o /proc 
 Arquivos e diretórios criados temporariamente tanto pelo sistema quanto pelos usuários devem ficar nesse diretório. Boa parte deles é apagada sempre que o computador é reiniciado.
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~    PRATICA NOS COMANDOS   ~~~~~~~~~~~~~~~~~~~~~~~~
-
+########   PRATICA NOS COMANDOS   
 
 todos os comandos podem ser complementados, por alguns comandos que são denomidos de flags, as flags fazem funções extras em seus comandos basicos
 
