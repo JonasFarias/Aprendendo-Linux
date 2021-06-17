@@ -1,18 +1,36 @@
-Material de estudos
-
-blog diolinux
-blog do edivaldo
-viva o linux
-guia foca linux
-
-Descobrindo o Linux
+# ESTUDANDO LINUX
 
 
+## Material de estudos
+
+~~Alguns livros de LINUX~~
 
 
-################################# ATALHOS #################################
+1. teste
+2. teste
+3. teste
+4. teste
 
-CTRL + SHIFT + T = Abre uma nova guia do terminal(uma janala do terminal já tem que eestar aberta)
+~~Alguns blogues para aparender e ver conteudo de linux~~.
+
+1. [*DioLinux*](https://diolinux.com.br/)
+1. [*Blog do Edivaldo*](https://www.edivaldobrito.com.br/)
+1. [*Viva o LINUX*](https://www.vivaolinux.com.br/)
+1. [*Guia Foca LINUX*](https://www.vivaolinux.com.br/)
+
+Alguns Canais do *YouTube* sobre **LINUX**
+1. [*DioLinux*](https://www.youtube.com/user/Diolinux)
+2. [*Curso em Video*](https://www.youtube.com/watch?v=6nN2EglOqCM&list=PLHz_AreHm4dlIXleu20uwPWFOSswqLYbV)
+
+
+# Descobrindo o Linux
+
+
+
+
+################################# **ATALHOS** #################################
+
+**CTRL + SHIFT + T** = Abre uma nova guia do terminal(uma janala do *terminal* já tem que estar **aberta**)
 
 
 =====================COMANDOS BASICOS PARA LINUX===================
