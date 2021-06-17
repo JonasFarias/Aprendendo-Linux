@@ -23,17 +23,17 @@ Alguns Canais do *YouTube* sobre **LINUX**
 2. [*Curso em Video*](https://www.youtube.com/watch?v=6nN2EglOqCM&list=PLHz_AreHm4dlIXleu20uwPWFOSswqLYbV)
 
 
-# Descobrindo o Linux
+# DESCOBRINDO O LINUX
 
 
 
 
-################################# **ATALHOS** #################################
+## **ATALHOS** 
 
 **CTRL + SHIFT + T** = Abre uma nova guia do terminal(uma janala do *terminal* já tem que estar **aberta**)
 
 
-=====================COMANDOS BASICOS PARA LINUX===================
+# COMANDOS BASICOS PARA LINUX
 
 # ESTRUTURA DE DIRETÓRIOS
 
