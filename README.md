@@ -3,7 +3,7 @@
 
 ## Material de estudos
 
-~~Alguns livros de LINUX~~
+Alguns livros de LINUX
 
 
 1. teste
@@ -11,7 +11,7 @@
 3. teste
 4. teste
 
-~~Alguns blogues para aparender e ver conteudo de linux~~.
+Alguns blogues para aparender e ver conteudo de linux
 
 1. [*DioLinux*](https://diolinux.com.br/)
 1. [*Blog do Edivaldo*](https://www.edivaldobrito.com.br/)
@@ -35,88 +35,87 @@ Alguns Canais do *YouTube* sobre **LINUX**
 
 =====================COMANDOS BASICOS PARA LINUX===================
 
-ESTRUTURA DE DIRETÓRIOS
+# ESTRUTURA DE DIRETÓRIOS
 
 
 DIRETÓRIO /	= Diretório Raiz do sistema, então se o diretório / é o raiz todos os proximos diretórios estarão abaixo do direitório raiz
 
-/sbin
-/var      ----> /log e /spool
-/boot
-/dev      ----> /fd0
-/etc
-/home     ----> /ftp e /leo e /ivani (usuários)
-/lib
-/mnt
-/root
-/tmp
-/usr      ----> /man e /lib e /bin
-/bin
+/sbin	<br>
+/var      ----> /log e /spool<br>
+/boot <br>
+/dev      ----> /fd0 <br>
+/etc <br>
+/home     ----> /ftp e /leo e /ivani (usuários) <br>
+/lib <br>
+/mnt <br>
+/root <br>
+/tmp <br>
+/usr      ----> /man e /lib e /bin <br>
+/bin <br>
 
 
 
 
-######################## O DIRETÓRIO RAIZ (/)###############################
+# O DIRETÓRIO RAIZ (/)
 
-Todos os arquivos e diretórios do sistema Linux instalados no computador partem de uma única origem: o diretório raiz. Mesmo que  estejam armazenados em outros dispositivos físicos, é a partir do diretório raiz - representado pela bala barra (/) - que você poderá acessá-los.
+Todos os arquivos e diretórios do sistema Linux instalados no computador partem de uma única origem: o diretório raiz. Mesmo que  estejam armazenados em outros dispositivos físicos, é a partir do diretório raiz - representado pela barra (/) - que você poderá acessá-los.
 Também vale lembrar que o único usuário do sistema capaz de  criar ou mover arquivos do diretório raiz é o root, ou seja, o usuário-administrador. Isso evita que usuários comuns cometam erros e acabem comprometendo  a integridade de todo os sistema de arquivos.
 
 
 
 Toda e qualquer alteração feita no diretório raiz, só pode ser feita ou executada pelo usuario root.
 
-============================================================================
 
-######################## BINÁRIO EXECUTÁVEIS: /bin  ########################
+# BINÁRIO EXECUTÁVEIS: /bin 
 
 No diretório /bin estão localizados os binários executáveis que podem ser utilizados por qualquer usúario do sistema. São comandos essenciais, usados para trabalhar com arquivos, textos e alguns recursos básicos de rede, como o cp, mv, ping e grep.
 
----------------------------------------------------------------------------
----------------------- BINÁRIOS DO SISTEMA: /sbin --------------------------
+# BINÁRIOS DO SISTEMA: /sbin 
 
 Assim como o /bin, este diretório armazena executáveis, mas com um diferencial: são aplicativos utilizados por administradores de sistema com o propósito de realizar funções de manutenção e outras tarefas semelhantes. Entre os comandos disponíveis estão o ifconfig, para configurar e controlar interfaces de rede TCP/IP, e o fdisk, que permite particionar discos rígidos, por Exemplo.
 
-
-####################### PROGRMAS DIVERSOS: /usr ############################
+# PROGRMAS DIVERSOS: /usr 
 
 Se você não encontrar um comando no diretório /bin ou sbin, ele certamente está aqui.
 O /usr reúne executáveis, bibliotecas e até documentação de softwares usados pelos usúarios ou administradores do sistema. Além disso, sempre que voc/çe compilar e instalar um prograa a partir do código-fonte, ele será instalado nesse diretório.
 
-##################### CONFIGURAÇÃO DO SISTEMA: /etc #######################
+# CONFIGURAÇÃO DO SISTEMA: /etc 
+
 
 No diretório /etc ficam arquivos de configiração que podem ser usados por todos os softwares, além de scripts especiais para iniciar ou interromper módulos e programas diversos. É no /etc que se encontra, por exemplo, o arquivo resolv.conf, com uma relação de servidores DNS que podem ser acessados pelo sistema, com os parâmetros necessários para isso.
 
 
-########################## BIBLIOTECAS: /lib ###############################
+# BIBLIOTECAS: /lib 
 
 Neste ponto do sistema de arquivos ficam localizadas as bibliotecas usadas pelos comandos presentes em /bin e /sbin. Normalmente, os arquivos de bibliotecas começam com os prefixos id ou lib e possuem "extensão" so.
 
-############################ OPCIONAIS: /opt #############################
+# OPCIONAIS: /opt 
 
 Aplicatvis adicionais, que não são essenciais para o sistema, terminam neste diretório.
 
-########################### ARQUIVOS PESSOAIS: /home #####################
+# ARQUIVOS PESSOAIS: /home 
 
 No diretório /home ficam os arquivos pessoais, como documentos e fotografias, sempre dentro de pastas que levam o nome de casa usuário. Vale notar que o diretório pessoal do administrador nao fica no mesmo local, e sim em /root.
 
 
-############################ INICIALIZAÇÃO: /boot #########################
+# INICIALIZAÇÃO: /boot 
+
 
 aRQUIVOS RELACIONADOS à inicialização do sistema, ou seja, o processo de boot do Linux, quando o computador é ligado, ficam em /boot.
 
 (Também tem um programa chamado grub, que é o programa que controla todo o sistema de inicialização)
 
-############################ SERVIÇOS: /srv ###############################
+# SERVIÇOS: /srv 
 
 Dados de servidores e serviços em execução no computador ficam armazenados dentro desse direório.
 
-########################### ARQUIVOS VARIÁVEIS: /var ######################
+# ARQUIVOS VARIÁVEIS: /var 
 
 Todo arquivo que aumenta de tamanho ao longo do tempo está no diretório de arquivos variáveis. Um bom exemplo são os logs do sistema, ou seja, refistros de forma de texto de atividades realizadas no Linux, como os logins feitos ao longo dos meses.
 
 
 
-###################### VOLUMES E MÍDIAS: /mnt e /media ###################
+# VOLUMES E MÍDIAS: /mnt e /media 
 
 Para acessar os arquivos de um Cd, pendrive ou disco rígido presente em outra máquina da rede, é necessário "montar" esse contéudo no sistema de arquivos local, isso é, torna-lo acessível como se fosse apenas mais um diretório no sistema.
 
