@@ -30,7 +30,7 @@ Alguns Canais do *YouTube* sobre **LINUX**
 
 ## **ATALHOS** 
 
-**CTRL + SHIFT + T** = Abre uma nova guia do terminal(uma janala do *terminal* já tem que estar **aberta**)
+`CTRL + SHIFT + T`  = Abre uma nova guia do terminal(uma janala do *terminal* já tem que estar **aberta**)
 
 
 # COMANDOS BASICOS PARA LINUX
@@ -141,25 +141,22 @@ Arquivos e diretórios criados temporariamente tanto pelo sistema quanto pelos u
 **todos os comandos podem ser complementados, por alguns comandos que são denomidos de flags, as flags fazem funções extras em seus comandos basicos**
 
 
-ls = lista o conteúdo do diretório atual
+`ls` = lista o conteúdo do diretório atual
 
-~
 
-ls / Mostra todo o conteúdo do diretório /
+`ls /` Mostra todo o conteúdo do diretório /
 
-~
 
-ls -h mostra algumas opções
+`ls -h` mostra algumas opções
 
-~
 
-ls -l lista o conteúdo mostrando informações como, tamanho, data e permissões
+`ls -l` lista o conteúdo mostrando informações como, tamanho, data e permissões
 
-ls -lh lista o conteúdo mostrando informações como, tamanho, data e permissões porém de uma forma mas simplês e facil de se entender por uma pessoa!
+`ls -lh` lista o conteúdo mostrando informações como, tamanho, data e permissões porém de uma forma mas simplês e facil de se entender por uma pessoa!
 
-ls -lha mostra todos os arquivos, até mesmo os ocultos, se tiver algum (" Arquivos ocultos no linux são mostrado com um . no início do seu nome")
+`ls -lha` mostra todos os arquivos, até mesmo os ocultos, se tiver algum (" Arquivos ocultos no linux são mostrado com um . no início do seu nome")
 
-cd é o comando para entrar nos diretórios exemplo cd / vai te direcionar para o diretório /
+`cd` é o comando para entrar nos diretórios exemplo `cd /` vai te direcionar para o diretório /
 
 
 
@@ -180,8 +177,7 @@ Para renomear voê deve seguir a seguinte forma
 
 mv /arquivo_que_você_quer_renomear novo_nome_do_arquivo
 
-
-########################### AJUDA NO LINUX #################################
+# AJUDA NO LINUX 
 
 
 man -- responval por imprimir na tela o manual do comando exemplo man ls ("Mostra o manual do comando ls, explicando funções e as flags que você pode utilizar")
@@ -190,24 +186,23 @@ apropos -- procura qualquer man baseado em uma palavra ou descrição
 
 --help mostra o manual resumido de qualquer programa ou comando("Mostrando uma descrição rapida, e alguns dos principais comandos de saido do programa")
 
-########################### MANIPULANDO ARQUIVOS ###########################
+
+# MANIPULANDO ARQUIVOS 
 
 
 
 
 
+# PROGRAMAS NO LINUX 
 
-########################### PROGRAMAS NO LINUX #############################
+PaRa atualizar os pacotes de programas instalados no programa você deve colocar, o comando
 
-Pata atualizar os pacotes de programas instalados no programa você deve colocar, o comando
-
-apt-get update
-
+`apt-get update`
 
 
 
-####################### O PODER DA LINHA DE COMANDO ########################
-========================================================================================================================================================
+
+# O PODER DA LINHA DE COMANDO 
 
 
 
