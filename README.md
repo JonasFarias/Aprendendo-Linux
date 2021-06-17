@@ -121,25 +121,24 @@ Para acessar os arquivos de um Cd, pendrive ou disco rígido presente em outra m
 
 Em /media ficam montadas todas as mídias removíveis, como dispositivos USB e DVD's de dados. Já o diretório /mnt fica reservado aos administradores que precisam montar temporariamente um sistema de arquivos externo.
 
+# ARQUIVOS DE DISPOSITIVOS: /dev 
 
-###################### ARQUIVOS DE DISPOSITIVOS: /dev #####################
 
 No Linux, tudo é apresentado na forma de arquivos. Ao plugar um pendrive no computador, por exemplo, um arquivo será criado dentro do diretório, você encontra caminhos semelhantes para acessar terminais e qualquer dispositivo conectado ao computador, como o mouse e até modems.
 
 
-##################### PROCESSOS DO SISTEMA: /proc ##########################
+# PROCESSOS DO SISTEMA: /proc 
 
 Lembra da história de que tudo funciona como um arquivo no Linux? Pois o /proc é a prova disso. Nesse diretório são encontrados arquivos que revelam informações sobre os recursos e processos em execução no sistema. Quer um exemplo? Para saber há qanto tempo o Linux est[a sendo usado desde a última vez em que foi iniciado, basta ler o arquivo /proc/uptime.
 
-
-#################### ARQUIVOS TEMPORÁRIOS: /tmp ############################
+# ARQUIVOS TEMPORÁRIOS: /tmp 
 
 Arquivos e diretórios criados temporariamente tanto pelo sistema quanto pelos usuários devem ficar nesse diretório. Boa parte deles é apagada sempre que o computador é reiniciado.
 
 
-########   PRATICA NOS COMANDOS   
+##   PRATICA NOS COMANDOS   
 
-todos os comandos podem ser complementados, por alguns comandos que são denomidos de flags, as flags fazem funções extras em seus comandos basicos
+**todos os comandos podem ser complementados, por alguns comandos que são denomidos de flags, as flags fazem funções extras em seus comandos basicos**
 
 
 ls = lista o conteúdo do diretório atual
