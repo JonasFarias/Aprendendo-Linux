@@ -101,7 +101,7 @@ No diretório /home ficam os arquivos pessoais, como documentos e fotografias, s
 # INICIALIZAÇÃO: /boot 
 
 
-aRQUIVOS RELACIONADOS à inicialização do sistema, ou seja, o processo de boot do Linux, quando o computador é ligado, ficam em /boot.
+ARQUIVOS RELACIONADOS à inicialização do sistema, ou seja, o processo de boot do Linux, quando o computador é ligado, ficam em /boot.
 
 (Também tem um programa chamado grub, que é o programa que controla todo o sistema de inicialização)
 
