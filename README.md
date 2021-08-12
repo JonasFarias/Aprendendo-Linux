@@ -74,48 +74,48 @@ No diretório /bin estão localizados os binários executáveis que podem ser ut
 
 Assim como o /bin, este diretório armazena executáveis, mas com um diferencial: são aplicativos utilizados por administradores de sistema com o propósito de realizar funções de manutenção e outras tarefas semelhantes. Entre os comandos disponíveis estão o ifconfig, para configurar e controlar interfaces de rede TCP/IP, e o fdisk, que permite particionar discos rígidos, por Exemplo.
 
-# PROGRMAS DIVERSOS: /usr 
+# PROGRMAS DIVERSOS: `/usr` 
 
 Se você não encontrar um comando no diretório /bin ou sbin, ele certamente está aqui.
 O /usr reúne executáveis, bibliotecas e até documentação de softwares usados pelos usúarios ou administradores do sistema. Além disso, sempre que voc/çe compilar e instalar um prograa a partir do código-fonte, ele será instalado nesse diretório.
 
-# CONFIGURAÇÃO DO SISTEMA: /etc 
+# CONFIGURAÇÃO DO SISTEMA: `/etc` 
 
 
 No diretório /etc ficam arquivos de configiração que podem ser usados por todos os softwares, além de scripts especiais para iniciar ou interromper módulos e programas diversos. É no /etc que se encontra, por exemplo, o arquivo resolv.conf, com uma relação de servidores DNS que podem ser acessados pelo sistema, com os parâmetros necessários para isso.
 
 
-# BIBLIOTECAS: /lib 
+# BIBLIOTECAS: `/lib` 
 
 Neste ponto do sistema de arquivos ficam localizadas as bibliotecas usadas pelos comandos presentes em /bin e /sbin. Normalmente, os arquivos de bibliotecas começam com os prefixos id ou lib e possuem "extensão" so.
 
-# OPCIONAIS: /opt 
+# OPCIONAIS: `/opt` 
 
 Aplicatvis adicionais, que não são essenciais para o sistema, terminam neste diretório.
 
-# ARQUIVOS PESSOAIS: /home 
+# ARQUIVOS PESSOAIS: `/home` 
 
-No diretório /home ficam os arquivos pessoais, como documentos e fotografias, sempre dentro de pastas que levam o nome de casa usuário. Vale notar que o diretório pessoal do administrador nao fica no mesmo local, e sim em /root.
-
-
-# INICIALIZAÇÃO: /boot 
+No diretório `/home` ficam os arquivos pessoais, como documentos e fotografias, sempre dentro de pastas que levam o nome de casa usuário. Vale notar que o diretório pessoal do administrador nao fica no mesmo local, e sim em `/root.`
 
 
-ARQUIVOS RELACIONADOS à inicialização do sistema, ou seja, o processo de boot do Linux, quando o computador é ligado, ficam em /boot.
+# INICIALIZAÇÃO: `/boot` 
+
+
+ARQUIVOS RELACIONADOS à inicialização do sistema, ou seja, o processo de boot do Linux, quando o computador é ligado, ficam em `/boot.`
 
 (Também tem um programa chamado grub, que é o programa que controla todo o sistema de inicialização)
 
-# SERVIÇOS: /srv 
+# SERVIÇOS: `/srv` 
 
 Dados de servidores e serviços em execução no computador ficam armazenados dentro desse direório.
 
-# ARQUIVOS VARIÁVEIS: /var 
+# ARQUIVOS VARIÁVEIS: `/var` 
 
 Todo arquivo que aumenta de tamanho ao longo do tempo está no diretório de arquivos variáveis. Um bom exemplo são os logs do sistema, ou seja, refistros de forma de texto de atividades realizadas no Linux, como os logins feitos ao longo dos meses.
 
 
 
-# VOLUMES E MÍDIAS: /mnt e /media 
+# VOLUMES E MÍDIAS: `/mnt` e `/media` 
 
 Para acessar os arquivos de um Cd, pendrive ou disco rígido presente em outra máquina da rede, é necessário "montar" esse contéudo no sistema de arquivos local, isso é, torna-lo acessível como se fosse apenas mais um diretório no sistema.
 
