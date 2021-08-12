@@ -38,7 +38,7 @@ Alguns Canais do *YouTube* sobre **LINUX**
 # ESTRUTURA DE DIRETÓRIOS
 
 
-DIRETÓRIO /	= Diretório Raiz do sistema, então se o diretório / é o raiz todos os proximos diretórios estarão abaixo do direitório raiz
+DIRETÓRIO `/`	= Diretório Raiz do sistema, então se o diretório / é o raiz todos os proximos diretórios estarão abaixo do direitório raiz
 
 /sbin	<br>
 /var      ----> /log e /spool<br>
@@ -66,11 +66,11 @@ Também vale lembrar que o único usuário do sistema capaz de  criar ou mover a
 Toda e qualquer alteração feita no diretório raiz, só pode ser feita ou executada pelo usuario root.
 
 
-# BINÁRIO EXECUTÁVEIS: /bin 
+# BINÁRIO EXECUTÁVEIS: `/bin` 
 
 No diretório /bin estão localizados os binários executáveis que podem ser utilizados por qualquer usúario do sistema. São comandos essenciais, usados para trabalhar com arquivos, textos e alguns recursos básicos de rede, como o cp, mv, ping e grep.
 
-# BINÁRIOS DO SISTEMA: /sbin 
+# BINÁRIOS DO SISTEMA: `/sbin` 
 
 Assim como o /bin, este diretório armazena executáveis, mas com um diferencial: são aplicativos utilizados por administradores de sistema com o propósito de realizar funções de manutenção e outras tarefas semelhantes. Entre os comandos disponíveis estão o ifconfig, para configurar e controlar interfaces de rede TCP/IP, e o fdisk, que permite particionar discos rígidos, por Exemplo.
 
