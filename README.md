@@ -1,4 +1,4 @@
-# ~~ESTUDANDO LINUX~~
+# **ESTUDANDO LINUX**
 
 
 ## Material de estudos
