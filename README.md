@@ -23,6 +23,18 @@ Alguns Canais do *YouTube* sobre **LINUX**
 2. [*Curso em Video*](https://www.youtube.com/watch?v=6nN2EglOqCM&list=PLHz_AreHm4dlIXleu20uwPWFOSswqLYbV)
 
 
+
+## **Entendendo como o Linux difere de outrossistemas operacionais**
+
+Novo no Linux? Mas é provável que já tenha usado um S.O(Sistema Operacional) Microsoft Windows ou
+Apple Mac OS.
+Os sistemas operacionais, da Microsoft e da Apple são considerados sistemas operacionais proprietários. Isso significa que:
+
+
+Você não pode ver o código usado para criar o sistema operacional.
+Você, portanto, não pode alterar o sistema operacional em seus níveis mais básicos se ele não
+atender suas necessidades — e você não pode usar o sistema operacional para construir seu
+próprio sistema operacional a partir do código-fonte.
 # DESCOBRINDO O LINUX
 
 
