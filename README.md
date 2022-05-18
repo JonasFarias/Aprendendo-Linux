@@ -31,10 +31,14 @@ Apple Mac OS.
 Os sistemas operacionais, da Microsoft e da Apple são considerados sistemas operacionais proprietários. Isso significa que:
 
 
-Você não pode ver o código usado para criar o sistema operacional.
-Você, portanto, não pode alterar o sistema operacional em seus níveis mais básicos se ele não
-atender suas necessidades — e você não pode usar o sistema operacional para construir seu
+1. Você, não tem acesso ao codigo fonte do sistema.
+2. Você, não pode alterar o sistema operacional se ele não
+atender suas necessidades  você não pode usar o sistema operacional para construir seu
 próprio sistema operacional a partir do código-fonte.
+3. Você não consegue verificar o código para encontrar erros, explorar vulnerabilidades de segurança, ou
+simplesmente saber o que o código está fazendo.
+
+
 # DESCOBRINDO O LINUX
 
 
